@@ -13,8 +13,7 @@ public class AnonymousClassWithLambda {
 		AnonymousInterf i = () -> {
 				int x =999;
 				System.out.println(this.x);
-				System.out.println(AnonymousClassWithLambda.this.x);
-			
+
 		};
 		i.m1();
 	}
